@@ -1,15 +1,15 @@
-# did_django_spoontaculer_api
-Django project that demonstrates how to shchedule job in Django
+# django_spoontaculer_api
+
 
 1) cd to development directory
-2) mkvirtualenv did_django_schedule_jobs
-3) mkdir did_django_schedule_jobs
-4) clone repository to new directory
+2) python -m venv env
+3) clone repository to new directory
+4) activate env
 5) pip install -r requirements.txt
 6) add api key in settings.py file
 
-API_KEY = 'XXX'
+API_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 6) python manage.py runserver
-7) https://localhost:8000 - Bob's your uncle!! 
+7) https://localhost:8000
 
